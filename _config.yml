@@ -25,6 +25,8 @@ sass:
  style: compressed
 
 scholar:
+   use_raw_bibtex_entry: true
+   style: assets/bibliography/ieee-with-url.csl
    bibliography_template: bibliography
    details_layout: bibentry.html
    details_link: Details
