@@ -15,6 +15,7 @@
 @string{icc = "IEEE International Conference on Communications (ICC)"}
 @string{survey = "IEEE Communications Surveys \& Tutorials"}
 @string{conext = "ACM Conference on emerging Networking EXperiments and Technologies (CoNEXT)"}
+@string{commag = "IEEE Communications Magazine"}
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %% oO Convenience Oo
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -61,15 +62,23 @@
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %% oO Articles Oo
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-%% TODO: change month, year and issn for below?
+@article{KRW17,
+    author = {Naeem Khademi and David Ros and Michael Welzl and Zdravko Bozakov and Anna Brunstrom and Gorry Fairhurst and Karl-Johan Grinnemo and David Hayes and Per Hurtig and Tom Jones and Simone Mangiante and Michael Tüxen and Felix Weinrank},
+    title = {{NEAT}: A Platform- and Protocol-Independent Internet Transport {API}},
+    journal = commag,
+    year = 2017,
+    month = jun,
+    keywords = {journal},
+}
+
 @article{PFR16,
     author = {Giorgos Papastergiou and Gorry Fairhurst and David Ros and Anna Brunstrom and Karl-Johan Grinnemo and Per Hurtig and Naeem Khademi and Michael Tuxen and Michael Welzl and Dragana Damjanovic and Simone Mangiante},
     title = {De-ossifying the Internet transport layer: A survey and future perspectives},
     journal = survey,
-    volume = {PP},
-    number = 99,
-    year = 2016,
-    month = oct,
+    volume = 19,
+    number = 1,
+    pages = {619--639},
+    year = 2017,
     doi = {10.1109/COMST.2016.2626780},
     keywords = {journal},
 }
@@ -153,6 +162,26 @@
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %% oO Conferences Oo
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@inproceedings{THJ17,
+
+    author = {Toke Høiland-Jørgensen and Michał Kazior and Dave Täht and Per Hurtig and Anna Brunstrom},
+    title = {Ending the Anomaly: Achieving Low Latency and Airtime Fairness in {WiFi}},
+    booktitle = {Proceedings of the {USENIX} Annual Technical Conference ({USENIX ATC})},
+    year = 2017,
+    month = jul,
+    address = {Santa Clara, CA, USA}
+    keywords = {conf},
+}
+
+@inproceedings{YHB17,
+    author = {Kiran Yedugundla and Per Hurtig and Anna Brunstrom},
+    title = {Probe or Wait: Handling tail losses using {Multipath TCP}},
+    booktitle = {Proceedings of the {IFIP/TC6} Networking Workshop on Future of Internet Transport ({FIT})},
+    year = 2017,
+    month = jun,
+    address = {Stockholm, Sweden}
+    keywords = {conf},
+}
 @inproceedings{HAH16,
     author = thj # et # ba # et # ph # et # ab,
     title = {Measuring Latency Variation in the Internet},
