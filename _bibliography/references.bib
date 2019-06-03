@@ -1,5 +1,3 @@
-%% TODO: Check against old BiBTeX!
-
 % ------------------------------------------------------------------------------
 % -=[ Preamble ]=-
 % ------------------------------------------------------------------------------
@@ -16,6 +14,7 @@
 @string{survey = "IEEE Communications Surveys \& Tutorials"}
 @string{conext = "ACM Conference on emerging Networking EXperiments and Technologies (CoNEXT)"}
 @string{commag = "IEEE Communications Magazine"}
+@string{ton = "IEEE/ACM Transactions on Networking"}
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %% oO Convenience Oo
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -65,9 +64,10 @@
 @article{HGB18,
     author = {Per Hurtig and Karl-Johan Grinnemo and Anna Brunstrom and Simone Ferlin and Özgü Alay and Nicolas Kuhn},
     title = {Low-Latency Scheduling in {MPTCP}},
-    journal = {{IEEE/ACM} Transactions on Networking},
+    journal = ton,
     year = 2018,
     month = dec,
+    issn = {1063-6692},
     doi = {10.1109/TNET.2018.2884791},
     keywords = {journal},
 }
@@ -172,6 +172,56 @@
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %% oO Conferences Oo
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+@inproceedings{HHG19b,
+    author = {Habtegebreil Haile and Per Hurtig and Karl-Johan Grinnemo},
+    title = {Rate Measurement Over Short Time Scales in Stationary Cellular Receivers},
+    booktitle = {Proceedings of {IFIP/IEEE} {TMA} Workshop on Mobile Network Measurements ({MNM})},
+    month = jun,
+    year = 2019,
+    address = {Paris, France},
+    keywords = {conf},
+}
+
+@inproceedings{AGA19,
+    author = {Bengt Ahlgren and Karl-Johan Grinnemo and Henrik Abrahamsson and Anna Brunstrom and Per Hurtig},
+    title = {Latency-aware Multipath Scheduling in Information-centric Networks},
+    booktitle = proc # " 15th " # sncnw,
+    year = 2019,
+    month = jun,
+    address = {Luleå, Sweden},
+    keywords = {conf},
+}
+
+@inproceedings{HHG19a,
+    author = {Habtegebreil Haile and Per Hurtig and Karl-Johan Grinnemo and Anna Brunstrom},
+    title = {Rate change detection in stationary cellular nodes},
+    booktitle = proc # " 15th " # sncnw,
+    year = 2019,
+    month = jun,
+    address = {Luleå, Sweden},
+    keywords = {conf},
+}
+
+@inproceedings{YHB19,
+    author = {Kiran Yedugundla and Per Hurtig and Anna Brunstrom},
+    title = {Handling Packet Losses in Cloud-Based MPTCP Application Traffic},
+    booktitle = {Proceedings of the 9th Conference on Cloud Computing and Services Science ({CLOSER})},
+    year = 2019,
+    month = may,
+    address = {Heraklion, Crete, Greece},
+    keywords = {conf},
+}
+
+@inproceedings{HHB19,
+    author = {Toke Høiland-Jørgensen and Per Hurtig and Anna Brunstrom},
+    title = {{PoliFi}: Airtime Policy Enforcement for {WiFi}},
+    booktitle = {Proceedings of the {IEEE} Wireless Communications and Networking Conference ({WCNC})},
+    year = 2019,
+    month = apr,
+    address = {Marrakech, Morocco},
+    keywords = {conf},
+}
 
 @inproceedings{HHG18b,
     author = {Habtegebreil Haile and Per Hurtig and Karl-Johan Grinnemo and Anna Brunstrom and Eneko Atxutegi Narbona and Fidel Liberal and Åke Arvidsson},
@@ -527,7 +577,7 @@
 	issn = {2070-1721},
 	doi = {10.17487/RFC7765},
 	note = {\url{http://www.rfc-editor.org/info/rfc7765}},
-	keywords = {std},
+	keywords = {journal,rfc},
 }
 
 @article{RFC5827,
@@ -540,7 +590,7 @@
 	issn = {2070-1721},
 	doi = {10.17487/RFC5827},
 	note = {\url{http://www.rfc-editor.org/info/rfc5827}},
-	keywords = {std},
+	keywords = {journal,rfc},
 }
 %% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %% oO I-Ds Oo
